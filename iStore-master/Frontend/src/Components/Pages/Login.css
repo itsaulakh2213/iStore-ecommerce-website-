@@ -1,0 +1,84 @@
+.login-cantainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.login-form {
+  background-color: #191717;
+  display: flex;
+  box-shadow: 0rem 0rem 4rem rgba(117, 117, 117, 0.1);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: .7rem;
+  width: 60rem;
+  height: 55rem;
+}
+
+.login-form .input  {
+  width: 90%;
+  height: 6rem;
+  background-color: aliceblue;
+  margin: 2rem 0rem;
+  border-radius:.7rem ;
+  font-size: 2rem;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+
+.login-form .input:focus{
+  border: .5rem solid #27a1d5;
+  outline: none;
+}
+
+
+.login-form .button {
+  width: 90%;
+  height: 7rem;
+  letter-spacing: 0.2rem;
+  background: #27a1d5;
+  font-family: "aman";
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 1rem;
+  border: none;
+  margin: 2rem 0rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4);
+  text-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.login-form h1 {
+  width: 90%;
+  height: 8rem;
+  letter-spacing: 0.2rem;
+  background: #27a1d5;
+  padding-top: 2.2rem;
+  font-family: "aman";
+  font-size: 3rem;
+  font-weight: 200;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 4rem 0rem;
+}
+
+.login-form a {
+  color: aliceblue;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.login-form a:hover{
+  background-color: #5e6669;
+  width: 55%;
+  text-align: center;
+}

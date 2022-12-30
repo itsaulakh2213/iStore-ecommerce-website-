@@ -1,0 +1,62 @@
+.Home-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Homepage .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../Image/bg1.jpg");
+  background-size: 180rem;
+  width: 93%;
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 2rem;
+  box-shadow: 0rem 0rem .8rem rgba(0, 0, 0, 0.179);
+}
+
+.Homepage .banner h2 {
+  text-align: center;
+  font-family: "aman";
+  color: aliceblue;
+  text-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.7);
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.Homepage .banner button a {
+  font-family: "aman";
+  letter-spacing: 0.2rem;
+
+  color: aliceblue;
+
+  text-decoration: none;
+}
+.Homepage .banner button {
+  width: 20rem;
+  height: 5.5rem;
+  font-size: 1.5rem;
+  border-radius: 1.3rem;
+  font-family: "aman";
+  letter-spacing: 0.2rem;
+  margin-top: 1rem;
+  color: aliceblue;
+  border: 0.3rem solid #0b81b6;
+  background: rgba(0, 0, 0, 0.443);
+  text-decoration: none;
+}
+
+.Homepage .banner button:hover {
+  border: 0.3rem solid rgb(255, 2, 150);
+  cursor: pointer;
+}
+
+.Homepage {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}

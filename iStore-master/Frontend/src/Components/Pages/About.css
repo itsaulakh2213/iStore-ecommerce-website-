@@ -1,0 +1,60 @@
+.About-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Aboutpage .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../Image/about.jpg");
+  width: 93%;
+  height: 60rem;
+  background-size: 180rem;
+  background-repeat: no-repeat;
+  background-position:center;
+  border-radius: 2rem;
+  box-shadow: 0rem 0rem .8rem rgba(0, 0, 0, 0.179);
+}
+
+.Aboutpage .banner h2 {
+  text-align: center;
+  font-family: "aman";
+  color: rgb(0, 0, 0);
+  text-shadow: 0rem 0rem 2rem rgba(168, 167, 167, 0.7);
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.Aboutpage {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.Aboutpage .about-content{
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.Aboutpage .about-content h2 {
+  border-bottom: .1rem solid #686974;
+  border-top: .1rem solid #686974;
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 4.5rem;
+  text-transform: capitalize;
+
+}
+.Aboutpage .about-content .about-p {
+    font-size: 2rem;
+    color: #57575e;
+    letter-spacing: .2rem;
+    text-shadow: 0rem 0rem 1rem rgb(221, 218, 218);
+    margin-top: 3rem;
+    text-align: justify;
+}

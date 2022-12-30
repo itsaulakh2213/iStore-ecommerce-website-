@@ -1,0 +1,39 @@
+.navbar {
+    position:sticky;
+}
+.navbar-toggler span {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.navbar-brand {
+    font-family: "aman";
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.nav-item .nav-link {
+  font-family: "poppins";
+  font-size: 2rem;  
+  text-align: center;
+  padding: 2rem 0rem;
+  letter-spacing: .3rem;
+}
+
+.nav-item .nav-link:hover{
+    background-color: rgb(62, 62, 62);
+}
+
+h5 {
+    font-family: 'aman';
+    background-color: aliceblue;
+    color: rgb(50, 48, 48);
+    width: 95%;
+    text-align: center;
+    font-size: 3rem;
+}
+.btn-close{
+ font-size: 1.5rem;
+ padding-right: .5rem;
+}
+

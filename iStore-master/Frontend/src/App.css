@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+body {
+  background-color: #f3f2f2;
+}
+
+@font-face {
+  font-family: "aman";
+  src: url(./Components/fonts/IDroid.otf);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(./Components/fonts/Arame-Bold.ttf);
+}
+
+.error {
+  color: red;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 32%;
+  }
+}

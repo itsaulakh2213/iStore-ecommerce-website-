@@ -1,0 +1,106 @@
+.Create-product-cantainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.c-productform {
+  background-color: #191717;
+  display: flex;
+  box-shadow: 0rem 0rem 4rem rgba(117, 117, 117, 0.1);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: .7rem;
+  width: 60rem;
+  height: 83rem;
+}
+
+.c-productform .input  {
+  width: 90%;
+  height: 6rem;
+  background-color: aliceblue;
+  margin: 2rem 0rem;
+  border-radius:.7rem ;
+  font-size: 2rem;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+.c-productform .input option {
+  background-color: #5e6669;
+  color: aliceblue;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+
+.c-productform .input:focus{
+  border: .5rem solid #5e6669;
+  outline: none;
+}
+
+
+.c-productform .button {
+  width: 90%;
+  height: 7rem;
+  letter-spacing: 0.2rem;
+  margin: 1rem;
+  background: #5e6669;
+  font-family: "aman";
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 1rem;
+  border: none;
+  margin-top: 4rem;
+  margin-bottom: 2.4rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4);
+  text-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+  width: 90%;
+  height: 8rem;
+  letter-spacing: 0.2rem;
+  background: #5e6669;
+  padding-top: 2.2rem;
+  font-family: "aman";
+  font-size: 3rem;
+  font-weight: 200;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.input-image .Preview {
+   width: 10rem;
+   height: 12rem;
+}
+
+.c-productform .input-image  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 1rem 0rem;
+  padding: 0rem;
+  border: .1rem solid #fbfbfb;
+  text-transform: capitalize;
+  background-color: aliceblue;
+  color: #121111;
+}
+
+.c-productform .input-image .Preview {
+  border: .2rem solid #5e6669;
+}
+
+#file-upload-button {
+  width: 2rem;
+}

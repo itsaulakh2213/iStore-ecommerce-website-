@@ -1,0 +1,66 @@
+
+ 
+  .EditProduct-main-container .EditProduct-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+    border: .1rem solid #6f707e;
+    margin-top: .1rem;
+    background-color: aliceblue;
+  }
+  .EditProduct-main-container .EditProduct-container .product-image {
+    width: 15rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    height: 18rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.07);
+    box-shadow: inset 0rem 0.1rem 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  .EditProduct-main-container .EditProduct-container .product-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .EditProduct-main-container .EditProduct-container .product-content p {
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      word-wrap: normal;
+  }
+.product-content .product-title {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: #6f707e;
+  }
+  .EditProduct-main-container .EditProduct-container .product-price {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #6f707e;
+  }
+  .product-content-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+  }
+  .product-content-btn .product-btn {
+    width: 23rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    background-color: #5e6669;
+    border: none;
+    border-radius: .7rem;
+    color: aliceblue;
+  }
